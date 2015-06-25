@@ -52,11 +52,8 @@ void CMSRift()
   v_stereo->GetGLViewer()->GetClipSet()->SetClipType(TGLClip::kClipBox);
   v_stereo->GetGLViewer()->SetGuideState(TGLUtil::kAxesEdge, kTRUE, kFALSE, 0);
   v_stereo->GetGLViewer()->RefreshPadEditor(v_stereo);
-  v_stereo->GetGLViewer()->CurrentCamera().RotateRad(-0.2, 4.0);
   v_stereo->GetGLViewer()->DoDraw();
-  
   v_stereo->UndockWindowDestroySlot();
-  
   
 }
   
